@@ -26,6 +26,15 @@
 
 # YOUR CODE HERE to define temp_classifier
 def temp_classifier(temp_celsius):
+  """
+  parameter:temp_celsius
+  classify 4 classes from 0 to 3
+    If temp_celsius <-2　, then temp_classifier=0
+    If temp_celsius >=-2 and temp_celsius <2　, then temp_classifier=1
+    If temp_celsius >=2 and temp_celsius <15　, then temp_classifier=2
+    If temp_celsius >=15　, then temp_classifier=3
+  """
+
   if (temp_celsius <-2):
    return 0
   if (temp_celsius >=-2) and (temp_celsius <2):
@@ -73,13 +82,12 @@ print("ok :)")
 # 
 #  - Are all the variable names are correct?
 #  - Does your code has enough comments?
-#  - Does your function has an informative dosctring?
+#  - Does your function has an informative docstring?
 
 # YOUR ANSWER HERE. Write your answer as comments
 #
-#
-#
-#
+#Yes
+#My code has some comments and informative docstring.
 #
 # YOUR ANSWER ENDS HERE
 
